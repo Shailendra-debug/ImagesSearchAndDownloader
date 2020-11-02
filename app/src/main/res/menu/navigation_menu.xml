@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/downloaded"
+        android:icon="@drawable/downloaded"
+        android:title="@string/downloaded" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:title="@string/share" />
+    <item
+        android:id="@+id/rating"
+        android:icon="@drawable/reat"
+        android:title="@string/rate_this_app" />
+    <item
+        android:title="@string/privacy_policy">
+        <menu>
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/privacy"
+                android:title="@string/privacy_policy" />
+            <item
+                android:id="@+id/terms"
+                android:icon="@drawable/terms"
+                android:title="@string/terms_amp_conditions" />
+        </menu>
+    </item>
+    <item
+        android:title="@string/contact_us">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/email"
+                android:title="@string/email" />
+
+        </menu>
+    </item>
+</menu>

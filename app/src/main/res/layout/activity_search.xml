@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:onClick="back"
+            android:background="@color/colorPrimary"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#FFF"
+            android:layout_marginLeft="40dp"
+            tools:ignore="RtlHardcoded" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.leo.simplearcloader.SimpleArcLoader
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/loader"
+        app:arc_style="simple_arc"
+        android:visibility="visible"
+        android:layout_centerInParent="true"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:visibility="gone"
+        android:layout_below="@id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</RelativeLayout>

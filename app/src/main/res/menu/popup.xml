@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/browser"
+        android:title="@string/open_in_browser" />
+    <item
+        android:id="@+id/set_wallpaper"
+        android:title="@string/set_wallpaper"/>
+
+</menu>

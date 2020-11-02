@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">New Images Downloader</string>
+    <string name="search">Search</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="rate_this_app">Rate This App</string>
+    <string name="other_apps">More Apps</string>
+    <string name="open_in_browser">Open in Browser</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="share">Share</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="dog">Dog</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="no_images">No Images</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="downloads">Downloads</string>
+    <string name="email">Email</string>
+
+</resources>

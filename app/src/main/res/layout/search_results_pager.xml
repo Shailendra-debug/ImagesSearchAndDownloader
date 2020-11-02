@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Search_Results">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <ImageView
+            android:id="@+id/image_view_detail"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:contentDescription="TODO"
+            android:padding="5dp"
+            tools:ignore="ContentDescription,HardcodedText"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:background="@color/color_two" />
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/daownlode"
+                android:layout_marginLeft="75dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                app:srcCompat="@drawable/ic_file_download_black_24dp"
+                tools:ignore="ContentDescription,RtlHardcoded,VectorDrawableCompat"
+                />
+
+            <ImageButton
+                android:id="@+id/shar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:background="@color/colorPrimary"
+
+                app:srcCompat="@drawable/ic_share_black_24dp"
+                tools:ignore="ContentDescription,RtlHardcoded,VectorDrawableCompat" />
+
+            <ImageButton
+                android:id="@+id/more"
+                android:layout_marginLeft="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                app:srcCompat="@drawable/ic_more_vert_black_24dp"
+                tools:ignore="ContentDescription,RtlHardcoded,VectorDrawableCompat"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:background="@color/color_two" />
+    </LinearLayout>
+
+</LinearLayout>

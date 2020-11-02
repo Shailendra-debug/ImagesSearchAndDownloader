@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dawnlods">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        tools:ignore="MissingConstraints">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="back"
+            android:src="@drawable/back"
+            android:background="@color/colorPrimary"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"
+            android:text="@string/downloads"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/color_two"
+            tools:ignore="RtlHardcoded" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyerview"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolBar"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolBar"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:textColor="@color/color_two"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:text="@string/no_images"/>
+
+</RelativeLayout>
